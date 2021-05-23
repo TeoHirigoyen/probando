@@ -5,10 +5,15 @@
   "main": "index.js",
   "dependencies": {
     "@material/button": "^11.0.0",
+    "@material/list": "^11.0.0",
+    "@material/ripple": "^11.0.0",
     "material-components-web": "^11.0.0"
   },
   "devDependencies": {
+    "@babel/core": "^7.14.3",
+    "@babel/preset-env": "^7.14.2",
     "autoprefixer": "^10.2.5",
+    "babel-loader": "^8.2.2",
     "css-loader": "^5.2.5",
     "extract-loader": "^5.1.0",
     "file-loader": "^6.2.0",
